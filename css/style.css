@@ -1,0 +1,44 @@
+/*Container*/
+
+#container{
+  max-width: 960px;
+  max-height: auto;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+/*nav menu*/
+.navigation{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #52e594;
+
+}
+.navigation li:hover{
+    background-color: #2ddf7c;
+    color: #fff;
+}
+.navigation li{
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding:15px;
+  color: #000;
+}
+
+.nav-active{
+  background-color:#2ddf7c;
+  padding: 15px 14px;
+}
+/*blog*/
+.blog{
+  border-top: 3px solid rgba(184, 196, 189, 0.39);
+
+}
+code{
+  background-color: rgba(184, 196, 189, 0.39);
+  padding: 2px;
+}
