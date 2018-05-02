@@ -1,88 +1,106 @@
-/*Container*/
-
-#container{
-  max-width: 960px;
-  position: relative;
-  margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
-
-
-}
-
-/*nav menu*/
-.navigation{
-  margin: 0 auto;
-  text-align: center;
-  background-color: #52e594;
-
-}
-.navigation li:hover{
-    background-color: #2ddf7c;
-    color: #fff;
-}
-.navigation li{
-  display: inline-block;
-  text-decoration: none;
-  list-style-type: none;
-  padding:15px;
-  color: #000;
-}
-.navigation li a{
-  text-decoration: none;
-}
-.nav-active{
-  background-color:#2ddf7c;
-  padding: 15px 14px;
-}
-
-/*footer*/
-.footer{
-  clear:both;
-  max-width: 100%;
-  height: 50px;
-  background-color:  #52e594;
-}
-.cpy{
-  padding: 10px 0px 0px 10px;
-  text-align: left;
-}
-
-/*Portfolio*/
-.port-row{
-  padding: 20px 0px 0px 0px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.port-row a img{
-  display:inline-block;
-  max-width: 320px;
-  height: auto;
-  float:left;
-}
-.port-row a img:hover{
-  background-color: #fff;
-}
-.img-wrap{
-  position: absolute;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left:0;
-  height: 100%;
+/*This is the main container for the site*/
+.container{
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  padding: 0px;
 }
 
 
-/*blog*/
-article{
-  border-top: 3px solid rgba(184, 196, 189, 0.39);
+body{
+  font-family: raleway;
+}
+.temp-clear{
+  margin-top:100%;
+}
+
+.sliderContainer{
+  position: relative;
+}
+
+.carousel-inner{
+  z-index: -1;
+}
+
+
+
+/* Navigation Menu */
+.nav{
+  font-size:21px;
+}
+.myNav{
+  background: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.myNav ul{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/*-----------container for the content ---------*/
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+  background: inherit;
 
 }
-code{
-  background-color: rgba(184, 196, 189, 0.39);
-  padding: 2px;
+
+}
+/*------------Sign up form ------------*/
+
+.form{
+  margin: auto;
+  position: relative;
+  width: 50%;
+
+
+}
+
+.form-background{
+  width: 100%;
+  height:auto;
+  background: #F8F9F9;
+  position: relative;
+  display: block;
+  padding: 30px;
+  margin-top: 35%;
+}
+
+
+/*------------This is the input group styling ------------*/
+input{
+   border-radius: 2%;
+   width: 90%;
+   height:30px;
+   margin-bottom: 10px;
+}
+.input-group-addon{
+  min-width:74px;
+}
+/*--------- Three col on hompage ----------*/
+
+.col-info img{
+  max-width: 100%;
+  margin-top:7%
+}
+
+.col-info p{
+  padding-top: 4%;
+  font-size: 20px;
+}
+
+
+
+/*This is the footer  section*/
+
+footer{
+  width:100%;
+  background: #000;
+  margin-top:40px;
+  height: 50px;
+  clear:both;
+
 }
